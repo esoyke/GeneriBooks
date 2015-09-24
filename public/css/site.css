@@ -1,0 +1,60 @@
+body {
+  padding-top: 69px;
+  padding-bottom: 70px;
+  background-color: #e9e0d6;
+}
+.jumbotron {
+  background-color: #eb7260;
+}
+.navbar {
+  background-color: #eb7260;
+}
+.navbar-header a.navbar-brand {
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #000;
+}
+ul.nav.navbar-nav {
+  margin-left: 150px;
+}
+#main-content {
+  overflow: auto;
+  padding-bottom: 150px;
+/* this needs to be bigger than footer height*/
+}
+.footer {
+  position: relative;
+  margin-top: -150px;
+/* negative value of footer height */
+  height: 150px;
+  clear: both;
+  padding-top: 20px;
+}
+.navbar-form .form-group {
+  margin-left: 10px;
+}
+.navbar-form button {
+  margin-left: 10px;
+}
+.top-padding-med {
+  padding-top: 10px;
+}
+.margin-left-med {
+  margin-left: 10px;
+}
+.toast-top-right {
+  top: 70px;
+}
+.toast-success {
+  background-color: #eb7260;
+}
+.navbar-brand {
+  float: left;
+  height: 30px;
+  padding: 15px 15px;
+  font-size: 24px;
+  line-height: 20px;
+  color: #000 !important;
+}

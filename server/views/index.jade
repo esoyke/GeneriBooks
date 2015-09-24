@@ -1,0 +1,44 @@
+extends ../includes/layout
+// must start block on column 0 or node throws error: 'unexpected token 'indent'
+block main-content
+  .navbar.navbar-inverse.navbar-fixed-top
+    .container
+      .navbar-header
+        a.navbar-brand(href="/") GeneriBooks
+      button.navbar-toggle(data-toggle="collapse" data-target=".navbar-collapse")
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      .navbar-collapse.collapse
+        ul.nav.navbar-nav
+          //li
+          //  a(href="/") Home
+          li
+            a(href="/courses") Books
+        .nav.pull-right
+          div(ng-include="'/partials/account/navbar-login'")
+
+  section.content
+      div(ng-view)
+    //h2=mongoMessage
+        //h1 Standard content in index.jade(html)
+
+  //footer.container.text-center
+      p &copy; 2014 GeneriBooks International
+
+//block main-content2
+//  h1 here you could define another block
+
+
+
+//.navbar.navbar-inverse.navbar-fixed-top
+//  .container
+//    .navbar-header
+//      a.navbar-brand(href="/") GeneriBooks
+//    .navbar-collapse.collapse
+//      ul.nav.navbar-nav
+//        li
+//          a(href="/") Home
+//        li
+//          a(href="/courses") Courses
+//      div(ng-include="'/partials/account/navbar-login'")
